@@ -7,8 +7,7 @@ const password = process.env.USER_PASSWORD;
 let browser  = null;
 let page = null;
 
-// ||'tweetBo31430880' ||'tweetBot';
-// || 'tweetBot1$$';
+
 (async ()=>{
     browser = await puppeteer.launch({headless : false});
     console.log(`TweetBot is active now...`);
