@@ -1,4 +1,5 @@
-<img src="https://www.flaticon.com/svg/vstatic/svg/254/254406.svg?token=exp=1615872403~hmac=72725d14512c04c60e2ec1abae974656" width = "100px">
+<!-- <img src="https://www.flaticon.com/svg/vstatic/svg/254/254406.svg?token=exp=1615872403~hmac=72725d14512c04c60e2ec1abae974656" width = "100px"> -->
+<img src="./previews/logonew.png" width = "93px">
 
 # TweetBot
 A basic twitter bot that currently performs automated logins and browses the feed.
