@@ -29,13 +29,13 @@ A basic twitter bot that currently performs automated logins and browses the fee
 
 **Features to Add**
 
-[x] Automated login with delayed input.
+- [x] Automated login with delayed input.
 
-[x] Browsing the feed/ automated scrolling.
+- [x] Browsing the feed/ automated scrolling.
 
-[] Retweet specific tweets.
+- [ ] Retweet specific tweets.
 
-[] Reply to tweets.
+- [ ] Reply to tweets.
 
 ---
 
