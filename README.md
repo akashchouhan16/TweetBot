@@ -1,38 +1,34 @@
-<!-- <img src="https://www.flaticon.com/svg/vstatic/svg/254/254406.svg?token=exp=1615872403~hmac=72725d14512c04c60e2ec1abae974656" width = "100px"> -->
-<img src="./previews/logonew.png" width = "93px">
+<img src="https://user-images.githubusercontent.com/56465610/215465613-2a296f90-1e9d-454d-adc3-73aeaeae0222.png" width = "200px">
 
-# TweetBot
-A basic twitter bot that currently performs automated logins and browses the feed.
 
-## How to run?
-* Clone this ```repo```.
-* Install the node modules
-    * ```bash
-        npm install
-        ```
-* Create a **.env** file and enter the following ``` key=values```
-    * ```
-        USER_ID=<TwitterUsername>
-        USER_PASSWORD=<TwitterPassword>
-        ```
-* Run the file using the start script :
+# Tweet Bot
+A twitter automation with node & puppeteer to perform automated sign-in and feed preview. This is a test repository and would also include an automated snapshots and bot retweet snipet. 
+
+## :gear: Steps to run on local
+* Clone the ```repository``` with https or SSL.
 ```bash
-    npm run start
+   git clone https://github.com/akashchouhan16/TweetBot.git
+```
+* Install the required dependecies
+```bash
+   npm install --save
+```
+* Create an environment file as **.env** file inside the project directory and save the following values:
+    * USER_ID=`twitter username`
+    * USER_PASSWORD=`twitter password`
+       
+* To start the application, run:
+```bash
+   npm run start
 ```
 ---
-## Bot's Automated Login
 
-> ![Alt Text](./previews/botlogin.gif)
 
----
-## Note :
-> Bot doesn't use the Twitter API.
+## **Features to add `WIP`**
 
-**Features to Add**
+- [x] Automated sign-up.
 
-- [x] Automated login with delayed input.
-
-- [x] Browsing the feed/ automated scrolling.
+- [x] Browsing the feed preview.
 
 - [ ] Retweet specific tweets.
 
@@ -40,5 +36,6 @@ A basic twitter bot that currently performs automated logins and browses the fee
 
 ---
 
-
+### **Maintainer**
+**[Akash Chouhan](https://github.com/akashchouhan16)**
 
